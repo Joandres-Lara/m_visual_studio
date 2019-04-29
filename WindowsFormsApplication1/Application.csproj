@@ -59,6 +59,9 @@
     </Compile>
     <Compile Include="MatrixSquare.cs" />
     <Compile Include="MatrixVariableOperation.cs" />
+    <Compile Include="MatrixVariableOperationOverride.cs" />
+    <Compile Include="MatrixVariableOperationOverrideTwo.cs" />
+    <Compile Include="MatrixVariableOperationOverrideThree.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

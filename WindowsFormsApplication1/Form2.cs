@@ -14,6 +14,13 @@ namespace WindowsFormsApplication1
     {
         public const int STRING_VALIDATION = 0;
         public const int INT_VALIDATION = 1;
+
+        public string[] OPERATIONS_STRING = new string[]{
+            "Multiplicación: ",
+            "Suma y raíz: ",
+            "División: ",
+            "Raíz: "
+        };
         public Form2()
         {
             InitializeComponent();
@@ -95,16 +102,38 @@ namespace WindowsFormsApplication1
             , 6, 3);
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MatrixVariableOperation objOperad = new MatrixVariableOperation(
-                GetValuesOfMatrix1(),
-                GetValuesOfMatrix2()
-            );
+        private void button1_Click(object sender, EventArgs e){
+            int[,] valuesMatrix1 = GetValuesOfMatrix1();
+            int[,] valuesMatrix2 = GetValuesOfMatrix2();
 
-            objOperad.Overrider();
+            panelResult2.Visible = true;
+            panelResult2.Enabled = true;
+            resultPrompt2.Text = "";
 
-            Console.WriteLine("");
+
+            decimal[] result = new decimal[]{};
+            int typeOperation = 0;
+
+            if (hasOperation1.Checked){
+                typeOperation = 0;
+                result = new MatrixVariableOperation(valuesMatrix1, valuesMatrix2).Overrider();
+            } else if (hasOperation2.Checked) {
+                typeOperation = 1;
+                result = new MatrixVariableOperationOverride(valuesMatrix1, valuesMatrix2).Overrider();
+            } else if(hasOperation3.Checked){
+                typeOperation = 2;
+                result = new MatrixVariableOperationOverrideTwo(valuesMatrix1, valuesMatrix2).Overrider();
+            } else if(hasOperation4.Checked){
+                typeOperation = 3;
+                result = new MatrixVariableOperationOverrideThree(valuesMatrix1, valuesMatrix2).Overrider();
+            }
+
+            for (int indexResult = 0; indexResult < result.Length; indexResult++){
+                resultPrompt2.Text += string.Concat(
+                      OPERATIONS_STRING[typeOperation], result[indexResult].ToString("#.#######"), Environment.NewLine
+                );
+            }
+ 
         }
     }
 }

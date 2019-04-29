@@ -109,7 +109,7 @@ namespace WindowsFormsApplication1
                     case OPERATION_3:
                         //
                         // Operación inversa del primer método
-                        output[index] = (decimal)(factor1/factor2);
+                        output[index] = decimal.Divide(factor1, factor2);
                     break;
                     case OPERATION_4:
                         //

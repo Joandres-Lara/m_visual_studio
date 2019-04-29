@@ -28,18 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panelResult = new System.Windows.Forms.Panel();
-            this.resultPrompt = new System.Windows.Forms.TextBox();
+            this.panelResult2 = new System.Windows.Forms.Panel();
+            this.resultPrompt2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.m4_i17 = new System.Windows.Forms.TextBox();
+            this.m4_i5 = new System.Windows.Forms.TextBox();
+            this.m4_i9 = new System.Windows.Forms.TextBox();
+            this.m4_i3 = new System.Windows.Forms.TextBox();
+            this.m4_i15 = new System.Windows.Forms.TextBox();
+            this.m4_i11 = new System.Windows.Forms.TextBox();
+            this.m4_i16 = new System.Windows.Forms.TextBox();
+            this.m4_i10 = new System.Windows.Forms.TextBox();
+            this.m4_i4 = new System.Windows.Forms.TextBox();
+            this.m4_i14 = new System.Windows.Forms.TextBox();
             this.m4_i8 = new System.Windows.Forms.TextBox();
             this.m4_i0 = new System.Windows.Forms.TextBox();
             this.m4_i13 = new System.Windows.Forms.TextBox();
+            this.m4_i2 = new System.Windows.Forms.TextBox();
             this.m4_i1 = new System.Windows.Forms.TextBox();
             this.m4_i12 = new System.Windows.Forms.TextBox();
+            this.m4_i6 = new System.Windows.Forms.TextBox();
             this.m4_i7 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.m3_i3 = new System.Windows.Forms.TextBox();
             this.m3_i7 = new System.Windows.Forms.TextBox();
             this.m3_i6 = new System.Windows.Forms.TextBox();
             this.m3_i5 = new System.Windows.Forms.TextBox();
@@ -48,44 +61,35 @@
             this.m3_i1 = new System.Windows.Forms.TextBox();
             this.m3_i0 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.m4_i16 = new System.Windows.Forms.TextBox();
-            this.m4_i10 = new System.Windows.Forms.TextBox();
-            this.m4_i4 = new System.Windows.Forms.TextBox();
-            this.m4_i11 = new System.Windows.Forms.TextBox();
-            this.m3_i3 = new System.Windows.Forms.TextBox();
-            this.m4_i6 = new System.Windows.Forms.TextBox();
-            this.m4_i2 = new System.Windows.Forms.TextBox();
-            this.m4_i14 = new System.Windows.Forms.TextBox();
-            this.m4_i15 = new System.Windows.Forms.TextBox();
-            this.m4_i3 = new System.Windows.Forms.TextBox();
-            this.m4_i9 = new System.Windows.Forms.TextBox();
-            this.m4_i5 = new System.Windows.Forms.TextBox();
-            this.m4_i17 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.panelResult.SuspendLayout();
+            this.hasOperation1 = new System.Windows.Forms.RadioButton();
+            this.hasOperation4 = new System.Windows.Forms.RadioButton();
+            this.hasOperation3 = new System.Windows.Forms.RadioButton();
+            this.hasOperation2 = new System.Windows.Forms.RadioButton();
+            this.panelResult2.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panelResult
+            // panelResult2
             // 
-            this.panelResult.Controls.Add(this.resultPrompt);
-            this.panelResult.Controls.Add(this.label4);
-            this.panelResult.Enabled = false;
-            this.panelResult.Location = new System.Drawing.Point(66, 305);
-            this.panelResult.Name = "panelResult";
-            this.panelResult.Size = new System.Drawing.Size(154, 89);
-            this.panelResult.TabIndex = 17;
-            this.panelResult.Visible = false;
+            this.panelResult2.Controls.Add(this.resultPrompt2);
+            this.panelResult2.Controls.Add(this.label4);
+            this.panelResult2.Enabled = false;
+            this.panelResult2.Location = new System.Drawing.Point(66, 305);
+            this.panelResult2.Name = "panelResult2";
+            this.panelResult2.Size = new System.Drawing.Size(154, 89);
+            this.panelResult2.TabIndex = 17;
+            this.panelResult2.Visible = false;
             // 
-            // resultPrompt
+            // resultPrompt2
             // 
-            this.resultPrompt.AllowDrop = true;
-            this.resultPrompt.Location = new System.Drawing.Point(3, 27);
-            this.resultPrompt.Multiline = true;
-            this.resultPrompt.Name = "resultPrompt";
-            this.resultPrompt.Size = new System.Drawing.Size(149, 62);
-            this.resultPrompt.TabIndex = 16;
+            this.resultPrompt2.AllowDrop = true;
+            this.resultPrompt2.Location = new System.Drawing.Point(3, 27);
+            this.resultPrompt2.Multiline = true;
+            this.resultPrompt2.Name = "resultPrompt2";
+            this.resultPrompt2.Size = new System.Drawing.Size(149, 62);
+            this.resultPrompt2.TabIndex = 16;
             // 
             // label4
             // 
@@ -135,6 +139,126 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Matriz 2";
             // 
+            // m4_i17
+            // 
+            this.m4_i17.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m4_i17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i17.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i17.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i17.Location = new System.Drawing.Point(204, 108);
+            this.m4_i17.Name = "m4_i17";
+            this.m4_i17.Size = new System.Drawing.Size(26, 23);
+            this.m4_i17.TabIndex = 22;
+            this.m4_i17.Text = "67";
+            // 
+            // m4_i5
+            // 
+            this.m4_i5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m4_i5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i5.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i5.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i5.Location = new System.Drawing.Point(204, 50);
+            this.m4_i5.Name = "m4_i5";
+            this.m4_i5.Size = new System.Drawing.Size(26, 23);
+            this.m4_i5.TabIndex = 21;
+            this.m4_i5.Text = "14";
+            // 
+            // m4_i9
+            // 
+            this.m4_i9.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m4_i9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i9.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i9.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i9.Location = new System.Drawing.Point(140, 79);
+            this.m4_i9.Name = "m4_i9";
+            this.m4_i9.Size = new System.Drawing.Size(26, 23);
+            this.m4_i9.TabIndex = 20;
+            this.m4_i9.Text = "78";
+            // 
+            // m4_i3
+            // 
+            this.m4_i3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m4_i3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i3.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i3.Location = new System.Drawing.Point(140, 50);
+            this.m4_i3.Name = "m4_i3";
+            this.m4_i3.Size = new System.Drawing.Size(26, 23);
+            this.m4_i3.TabIndex = 19;
+            this.m4_i3.Text = "80";
+            // 
+            // m4_i15
+            // 
+            this.m4_i15.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m4_i15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i15.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i15.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i15.Location = new System.Drawing.Point(140, 108);
+            this.m4_i15.Name = "m4_i15";
+            this.m4_i15.Size = new System.Drawing.Size(26, 23);
+            this.m4_i15.TabIndex = 18;
+            this.m4_i15.Text = "45";
+            // 
+            // m4_i11
+            // 
+            this.m4_i11.BackColor = System.Drawing.SystemColors.Window;
+            this.m4_i11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i11.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i11.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i11.Location = new System.Drawing.Point(204, 79);
+            this.m4_i11.Name = "m4_i11";
+            this.m4_i11.Size = new System.Drawing.Size(26, 23);
+            this.m4_i11.TabIndex = 16;
+            this.m4_i11.Text = "0";
+            // 
+            // m4_i16
+            // 
+            this.m4_i16.BackColor = System.Drawing.SystemColors.Window;
+            this.m4_i16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i16.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i16.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i16.Location = new System.Drawing.Point(172, 108);
+            this.m4_i16.Name = "m4_i16";
+            this.m4_i16.Size = new System.Drawing.Size(26, 23);
+            this.m4_i16.TabIndex = 14;
+            this.m4_i16.Text = "0";
+            // 
+            // m4_i10
+            // 
+            this.m4_i10.BackColor = System.Drawing.SystemColors.Window;
+            this.m4_i10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i10.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i10.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i10.Location = new System.Drawing.Point(172, 79);
+            this.m4_i10.Name = "m4_i10";
+            this.m4_i10.Size = new System.Drawing.Size(26, 23);
+            this.m4_i10.TabIndex = 13;
+            this.m4_i10.Text = "0";
+            // 
+            // m4_i4
+            // 
+            this.m4_i4.BackColor = System.Drawing.SystemColors.Window;
+            this.m4_i4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i4.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i4.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i4.Location = new System.Drawing.Point(172, 50);
+            this.m4_i4.Name = "m4_i4";
+            this.m4_i4.Size = new System.Drawing.Size(26, 23);
+            this.m4_i4.TabIndex = 12;
+            this.m4_i4.Text = "0";
+            // 
+            // m4_i14
+            // 
+            this.m4_i14.BackColor = System.Drawing.SystemColors.Window;
+            this.m4_i14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i14.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i14.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i14.Location = new System.Drawing.Point(108, 108);
+            this.m4_i14.Name = "m4_i14";
+            this.m4_i14.Size = new System.Drawing.Size(26, 23);
+            this.m4_i14.TabIndex = 6;
+            this.m4_i14.Text = "0";
+            // 
             // m4_i8
             // 
             this.m4_i8.BackColor = System.Drawing.SystemColors.Window;
@@ -171,6 +295,18 @@
             this.m4_i13.TabIndex = 9;
             this.m4_i13.Text = "0";
             // 
+            // m4_i2
+            // 
+            this.m4_i2.BackColor = System.Drawing.SystemColors.Window;
+            this.m4_i2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i2.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i2.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i2.Location = new System.Drawing.Point(108, 50);
+            this.m4_i2.Name = "m4_i2";
+            this.m4_i2.Size = new System.Drawing.Size(26, 23);
+            this.m4_i2.TabIndex = 1;
+            this.m4_i2.Text = "0";
+            // 
             // m4_i1
             // 
             this.m4_i1.BackColor = System.Drawing.SystemColors.Window;
@@ -194,6 +330,18 @@
             this.m4_i12.Size = new System.Drawing.Size(26, 23);
             this.m4_i12.TabIndex = 8;
             this.m4_i12.Text = "0";
+            // 
+            // m4_i6
+            // 
+            this.m4_i6.BackColor = System.Drawing.SystemColors.Window;
+            this.m4_i6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m4_i6.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m4_i6.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m4_i6.Location = new System.Drawing.Point(44, 79);
+            this.m4_i6.Name = "m4_i6";
+            this.m4_i6.Size = new System.Drawing.Size(26, 23);
+            this.m4_i6.TabIndex = 5;
+            this.m4_i6.Text = "0";
             // 
             // m4_i7
             // 
@@ -224,6 +372,18 @@
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Matriz 1";
+            // 
+            // m3_i3
+            // 
+            this.m3_i3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.m3_i3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.m3_i3.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.m3_i3.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.m3_i3.Location = new System.Drawing.Point(161, 66);
+            this.m3_i3.Name = "m3_i3";
+            this.m3_i3.Size = new System.Drawing.Size(26, 23);
+            this.m3_i3.TabIndex = 8;
+            this.m3_i3.Text = "34";
             // 
             // m3_i7
             // 
@@ -319,162 +479,6 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "Ingresa los números para las matrices";
             // 
-            // m4_i16
-            // 
-            this.m4_i16.BackColor = System.Drawing.SystemColors.Window;
-            this.m4_i16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i16.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i16.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i16.Location = new System.Drawing.Point(172, 108);
-            this.m4_i16.Name = "m4_i16";
-            this.m4_i16.Size = new System.Drawing.Size(26, 23);
-            this.m4_i16.TabIndex = 14;
-            this.m4_i16.Text = "0";
-            // 
-            // m4_i10
-            // 
-            this.m4_i10.BackColor = System.Drawing.SystemColors.Window;
-            this.m4_i10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i10.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i10.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i10.Location = new System.Drawing.Point(172, 79);
-            this.m4_i10.Name = "m4_i10";
-            this.m4_i10.Size = new System.Drawing.Size(26, 23);
-            this.m4_i10.TabIndex = 13;
-            this.m4_i10.Text = "0";
-            // 
-            // m4_i4
-            // 
-            this.m4_i4.BackColor = System.Drawing.SystemColors.Window;
-            this.m4_i4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i4.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i4.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i4.Location = new System.Drawing.Point(172, 50);
-            this.m4_i4.Name = "m4_i4";
-            this.m4_i4.Size = new System.Drawing.Size(26, 23);
-            this.m4_i4.TabIndex = 12;
-            this.m4_i4.Text = "0";
-            // 
-            // m4_i11
-            // 
-            this.m4_i11.BackColor = System.Drawing.SystemColors.Window;
-            this.m4_i11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i11.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i11.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i11.Location = new System.Drawing.Point(204, 79);
-            this.m4_i11.Name = "m4_i11";
-            this.m4_i11.Size = new System.Drawing.Size(26, 23);
-            this.m4_i11.TabIndex = 16;
-            this.m4_i11.Text = "0";
-            // 
-            // m3_i3
-            // 
-            this.m3_i3.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.m3_i3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m3_i3.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m3_i3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m3_i3.Location = new System.Drawing.Point(161, 66);
-            this.m3_i3.Name = "m3_i3";
-            this.m3_i3.Size = new System.Drawing.Size(26, 23);
-            this.m3_i3.TabIndex = 8;
-            this.m3_i3.Text = "34";
-            // 
-            // m4_i6
-            // 
-            this.m4_i6.BackColor = System.Drawing.SystemColors.Window;
-            this.m4_i6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i6.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i6.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i6.Location = new System.Drawing.Point(44, 79);
-            this.m4_i6.Name = "m4_i6";
-            this.m4_i6.Size = new System.Drawing.Size(26, 23);
-            this.m4_i6.TabIndex = 5;
-            this.m4_i6.Text = "0";
-            // 
-            // m4_i2
-            // 
-            this.m4_i2.BackColor = System.Drawing.SystemColors.Window;
-            this.m4_i2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i2.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i2.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i2.Location = new System.Drawing.Point(108, 50);
-            this.m4_i2.Name = "m4_i2";
-            this.m4_i2.Size = new System.Drawing.Size(26, 23);
-            this.m4_i2.TabIndex = 1;
-            this.m4_i2.Text = "0";
-            // 
-            // m4_i14
-            // 
-            this.m4_i14.BackColor = System.Drawing.SystemColors.Window;
-            this.m4_i14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i14.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i14.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i14.Location = new System.Drawing.Point(108, 108);
-            this.m4_i14.Name = "m4_i14";
-            this.m4_i14.Size = new System.Drawing.Size(26, 23);
-            this.m4_i14.TabIndex = 6;
-            this.m4_i14.Text = "0";
-            // 
-            // m4_i15
-            // 
-            this.m4_i15.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.m4_i15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i15.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i15.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i15.Location = new System.Drawing.Point(140, 108);
-            this.m4_i15.Name = "m4_i15";
-            this.m4_i15.Size = new System.Drawing.Size(26, 23);
-            this.m4_i15.TabIndex = 18;
-            this.m4_i15.Text = "45";
-            // 
-            // m4_i3
-            // 
-            this.m4_i3.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.m4_i3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i3.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i3.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i3.Location = new System.Drawing.Point(140, 50);
-            this.m4_i3.Name = "m4_i3";
-            this.m4_i3.Size = new System.Drawing.Size(26, 23);
-            this.m4_i3.TabIndex = 19;
-            this.m4_i3.Text = "80";
-            // 
-            // m4_i9
-            // 
-            this.m4_i9.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.m4_i9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i9.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i9.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i9.Location = new System.Drawing.Point(140, 79);
-            this.m4_i9.Name = "m4_i9";
-            this.m4_i9.Size = new System.Drawing.Size(26, 23);
-            this.m4_i9.TabIndex = 20;
-            this.m4_i9.Text = "78";
-            // 
-            // m4_i5
-            // 
-            this.m4_i5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.m4_i5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i5.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i5.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i5.Location = new System.Drawing.Point(204, 50);
-            this.m4_i5.Name = "m4_i5";
-            this.m4_i5.Size = new System.Drawing.Size(26, 23);
-            this.m4_i5.TabIndex = 21;
-            this.m4_i5.Text = "14";
-            // 
-            // m4_i17
-            // 
-            this.m4_i17.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.m4_i17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.m4_i17.Font = new System.Drawing.Font("Consolas", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.m4_i17.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.m4_i17.Location = new System.Drawing.Point(204, 108);
-            this.m4_i17.Name = "m4_i17";
-            this.m4_i17.Size = new System.Drawing.Size(26, 23);
-            this.m4_i17.TabIndex = 22;
-            this.m4_i17.Text = "67";
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(585, 385);
@@ -485,21 +489,70 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // hasOperation1
+            // 
+            this.hasOperation1.AutoSize = true;
+            this.hasOperation1.Checked = true;
+            this.hasOperation1.Location = new System.Drawing.Point(231, 333);
+            this.hasOperation1.Name = "hasOperation1";
+            this.hasOperation1.Size = new System.Drawing.Size(83, 17);
+            this.hasOperation1.TabIndex = 19;
+            this.hasOperation1.TabStop = true;
+            this.hasOperation1.Text = "Operación 1";
+            this.hasOperation1.UseVisualStyleBackColor = true;
+            // 
+            // hasOperation4
+            // 
+            this.hasOperation4.AutoSize = true;
+            this.hasOperation4.Location = new System.Drawing.Point(498, 333);
+            this.hasOperation4.Name = "hasOperation4";
+            this.hasOperation4.Size = new System.Drawing.Size(83, 17);
+            this.hasOperation4.TabIndex = 20;
+            this.hasOperation4.TabStop = true;
+            this.hasOperation4.Text = "Operación 4";
+            this.hasOperation4.UseVisualStyleBackColor = true;
+            // 
+            // hasOperation3
+            // 
+            this.hasOperation3.AutoSize = true;
+            this.hasOperation3.Location = new System.Drawing.Point(409, 333);
+            this.hasOperation3.Name = "hasOperation3";
+            this.hasOperation3.Size = new System.Drawing.Size(83, 17);
+            this.hasOperation3.TabIndex = 21;
+            this.hasOperation3.TabStop = true;
+            this.hasOperation3.Text = "Operación 3";
+            this.hasOperation3.UseVisualStyleBackColor = true;
+            // 
+            // hasOperation2
+            // 
+            this.hasOperation2.AutoSize = true;
+            this.hasOperation2.Location = new System.Drawing.Point(320, 333);
+            this.hasOperation2.Name = "hasOperation2";
+            this.hasOperation2.Size = new System.Drawing.Size(83, 17);
+            this.hasOperation2.TabIndex = 22;
+            this.hasOperation2.TabStop = true;
+            this.hasOperation2.Text = "Operación 2";
+            this.hasOperation2.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(680, 425);
+            this.Controls.Add(this.hasOperation2);
+            this.Controls.Add(this.hasOperation3);
+            this.Controls.Add(this.hasOperation4);
+            this.Controls.Add(this.hasOperation1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.panelResult);
+            this.Controls.Add(this.panelResult2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form2";
             this.Text = "Form2";
-            this.panelResult.ResumeLayout(false);
-            this.panelResult.PerformLayout();
+            this.panelResult2.ResumeLayout(false);
+            this.panelResult2.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -511,8 +564,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panelResult;
-        private System.Windows.Forms.TextBox resultPrompt;
+        private System.Windows.Forms.Panel panelResult2;
+        private System.Windows.Forms.TextBox resultPrompt2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -545,5 +598,9 @@
         private System.Windows.Forms.TextBox m4_i6;
         private System.Windows.Forms.TextBox m3_i3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton hasOperation1;
+        private System.Windows.Forms.RadioButton hasOperation4;
+        private System.Windows.Forms.RadioButton hasOperation3;
+        private System.Windows.Forms.RadioButton hasOperation2;
     }
 }
