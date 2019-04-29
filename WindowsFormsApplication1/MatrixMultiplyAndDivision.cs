@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApplication1
 {
-    class MatrixMultiply
+    class MatrixMultiplyAndDivision
     {
+        public const int DIVISION_TYPE = 0;
+        public const int MULTIPLY_TYPE = 1;
+        public const int SQUARE_TYPE = 2;
+        public const int INVERSE_SQUARE = 3;
         //
         // Estás son las matrices que
         // se van a multiplicar
@@ -62,20 +66,25 @@ namespace WindowsFormsApplication1
         // matrices, para evitar errores, vamos agregar una bandera
         // que llene de ceros los espacios de las matrices en dónde
         // no se haya proporcionado ningún número.
-        public MatrixMultiply(int[,] matrix1, int[,] matrix2) {
+        public MatrixMultiplyAndDivision(int[,] matrix1, int[,] matrix2) {
             this.matrix1 = matrix1;
             this.matrix2 = matrix2;
         }
 
-        public float[] Multiply() {
+        //
+        // Cambié los tipos para poder
+        // ver en la salida, el número con
+        // valores decimales.
+        public decimal[] Operation(int operationType) {
             //
             // Aquí se puede usar
             // tanto la longitud de la matriz de
             // índices de la primera matriz o de la segunda
             // ambas tienen la misma longitud
-            float[] resultOperation = new float[4]{0,0,0,0};
+            decimal[] resultOperation = new decimal[4] { 0, 0, 0, 0 };
 
-            for (int i = 0; i < this.indexesMatrix1.Length; i++){
+            for (int i = 0; i < this.indexesMatrix1.Length; i++)
+            {
                 int[] indexesMatrix1 = this.indexesMatrix1[i];
                 int[] indexesMatrix2 = this.indexesMatrix2[i];
 
@@ -88,12 +97,41 @@ namespace WindowsFormsApplication1
                 int x2 = indexesMatrix2[0] - 1;
                 int y2 = indexesMatrix2[1] - 1;
 
-                float currentIndexMultiplyResult = this.matrix1[x1, y1] * this.matrix2[x2, y2];
+                decimal currentResultOperation = 0;
+                int factor1 = this.matrix1[x1, y1];
+                int factor2 = this.matrix2[x2, y2];
 
-                resultOperation[i] = currentIndexMultiplyResult;
+                switch(operationType){
+                    case MULTIPLY_TYPE:
+                        currentResultOperation = factor1 * factor2;
+                    break;
+                    case DIVISION_TYPE:
+                        currentResultOperation = Decimal.Divide(factor1, factor2);
+                    break;
+                    case SQUARE_TYPE:
+                        currentResultOperation = (decimal)Math.Sqrt(factor1);
+                    break;
+                    case INVERSE_SQUARE:
+                        //
+                        // Obtener la raíz cuadrada del primer elemento
+                        // sobre la elevación al cuadrado
+                        currentResultOperation = (decimal)(Math.Sqrt(factor1)/(factor1*factor1));
+                    break;
+                    default: throw new Exception("Can´t not use this operation");
+                }
+
+                resultOperation[i] = currentResultOperation;
             }
 
             return resultOperation;
+        }
+
+        virtual public decimal[] Multiply() {
+            return Operation(MULTIPLY_TYPE);
+        }
+
+        virtual public decimal[] Division() {
+            return Operation(DIVISION_TYPE);
         }
     }
 }

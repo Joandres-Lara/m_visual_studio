@@ -471,23 +471,23 @@
             this.optionMultiply.AutoSize = true;
             this.optionMultiply.Checked = true;
             this.optionMultiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.optionMultiply.Location = new System.Drawing.Point(174, 367);
+            this.optionMultiply.Location = new System.Drawing.Point(260, 343);
             this.optionMultiply.Name = "optionMultiply";
-            this.optionMultiply.Size = new System.Drawing.Size(82, 19);
+            this.optionMultiply.Size = new System.Drawing.Size(130, 19);
             this.optionMultiply.TabIndex = 7;
             this.optionMultiply.TabStop = true;
-            this.optionMultiply.Text = "Multiplicar";
+            this.optionMultiply.Text = "Multiplicar  y Dividir";
             this.optionMultiply.UseVisualStyleBackColor = true;
             // 
             // optionSquare
             // 
             this.optionSquare.AutoSize = true;
             this.optionSquare.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.75F);
-            this.optionSquare.Location = new System.Drawing.Point(271, 367);
+            this.optionSquare.Location = new System.Drawing.Point(260, 366);
             this.optionSquare.Name = "optionSquare";
-            this.optionSquare.Size = new System.Drawing.Size(107, 19);
+            this.optionSquare.Size = new System.Drawing.Size(206, 19);
             this.optionSquare.TabIndex = 8;
-            this.optionSquare.Text = "Raíz Cuadrada";
+            this.optionSquare.Text = "Raíz Cuadrada y Exponenciacion";
             this.optionSquare.UseVisualStyleBackColor = true;
             // 
             // label3

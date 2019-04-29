@@ -104,20 +104,39 @@ namespace WindowsFormsApplication1
         }
 
         private void button1_Click(object sender, EventArgs e){
-            if ( optionMultiply.Checked ){
-                float[] result = new MatrixMultiply(GetValuesOfMatrix1(), GetValuesOfMatrix2()).Multiply();
-                resultPrompt.Text = "";
-                panelResult.Visible = true;
-                panelResult.Enabled = true;
 
-                foreach (float _result in result)
-                {
-                    resultPrompt.Text += _result.ToString() + Environment.NewLine;
+            int[,] matrix1 = GetValuesOfMatrix1();
+            int[,] matrix2 = GetValuesOfMatrix2();
+
+            resultPrompt.Text = "";
+            panelResult.Visible = true;
+            panelResult.Enabled = true;
+
+            if ( optionMultiply.Checked ){
+                MatrixMultiplyAndDivision objProd = new MatrixMultiplyAndDivision(matrix1, matrix2);
+
+                decimal[] resultMultiply = objProd.Multiply();
+                decimal[] resultDivision = objProd.Division();
+
+                for(int indexResult = 0; indexResult < resultMultiply.Length; indexResult++){
+                    resultPrompt.Text += string.Concat(
+                          "Multiplicación: ", resultMultiply[indexResult].ToString("#.##"), " "
+                        , "División: ", resultDivision[indexResult].ToString("#.##"), Environment.NewLine
+                    );
                 }
             }
 
             if( optionSquare.Checked ){
-                
+                MatrixSquare objProd2 = new MatrixSquare(matrix1, matrix2); 
+                decimal[] resultOverrideMultiply = objProd2.Multiply();
+                decimal[] resultOverrideDivision = objProd2.Division();
+
+                for (int indexResult = 0; indexResult < resultOverrideMultiply.Length; indexResult++){
+                    resultPrompt.Text += string.Concat(
+                          "Raíz: ", resultOverrideMultiply[indexResult].ToString("#.#######"), " "
+                        , "Potencia: ", resultOverrideDivision[indexResult].ToString("#.#######"), Environment.NewLine
+                    );
+                }
             }
         }
     }
